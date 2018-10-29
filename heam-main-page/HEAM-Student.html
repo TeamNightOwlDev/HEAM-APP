@@ -8,10 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
-
-<div id="container">
-    <iframe id="embed" src="HeamLinks.html"></iframe>
-</div>
+<button type="button" class="btn btn-outline-primary" id="LinkButton" onclick="location.href='HeamLinks.html'">Open links</button>
 <div class="jumbotron jumbotron-fluid header">
   <div class="container">
     <h1 id="topTitleBar" class="display-3 text-center">HEAM</h1>
@@ -35,7 +32,11 @@
 <script src="js/main.js"></script>
 </body>
 <style>
-
+#LinkButton{
+    position:relative;
+    transition: .5s ease;
+    top: 191px;
+}
 
 </style>
 </html>
