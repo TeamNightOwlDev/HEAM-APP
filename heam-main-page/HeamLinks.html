@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>Links available</h1>
+<!--Displays Title, And Users Name-->
+<div class="container" id= "LinkSet">
+var x = document.createElement("VAR");
+<a href="http://docs.google.com" class="btn btn-default">Go to Google Docs</a>
+<a href="http://classroom.google.com" class="btn btn-default">Go to Google Classroom</a>
+<a href=x class="btn btn-default">Go to google slides</a>
+
+<form id="AddLink" action="/HEAM-Student.html">
+Add Link:<input type="text" id="UserInput1">
+</form>  
+<button onclick="myFunction()">Add Link</button>
+<script>
+	function myFunction(){
+		let userItemInput = document.getElementById("UserInput1").value; //Pulls Value From Text Input
+		let list = document.getElementById("LinkSet"); //Gets The List Holder
+		let newItem = document.createElement("li"); // Creates List Litem
+		
+	}
+</script>
+<p id="demo"></p>
+</body>
+<style>
+#LinkSet{
+      background-color: #ffffff;
+} 
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>
